@@ -1,0 +1,15 @@
+C:\Users\anonimvs\Documents\projec_control\projec_control\obj\Debug\net6.0\projec_control.csproj.AssemblyReference.cache
+C:\Users\anonimvs\Documents\projec_control\projec_control\obj\Debug\net6.0\projec_control.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anonimvs\Documents\projec_control\projec_control\obj\Debug\net6.0\projec_control.AssemblyInfoInputs.cache
+C:\Users\anonimvs\Documents\projec_control\projec_control\obj\Debug\net6.0\projec_control.AssemblyInfo.cs
+C:\Users\anonimvs\Documents\projec_control\projec_control\obj\Debug\net6.0\projec_control.csproj.CoreCompileInputs.cache
+C:\Users\anonimvs\Documents\projec_control\projec_control\bin\Debug\net6.0\projec_control.exe
+C:\Users\anonimvs\Documents\projec_control\projec_control\bin\Debug\net6.0\projec_control.deps.json
+C:\Users\anonimvs\Documents\projec_control\projec_control\bin\Debug\net6.0\projec_control.runtimeconfig.json
+C:\Users\anonimvs\Documents\projec_control\projec_control\bin\Debug\net6.0\projec_control.dll
+C:\Users\anonimvs\Documents\projec_control\projec_control\bin\Debug\net6.0\projec_control.pdb
+C:\Users\anonimvs\Documents\projec_control\projec_control\obj\Debug\net6.0\projec_control.dll
+C:\Users\anonimvs\Documents\projec_control\projec_control\obj\Debug\net6.0\refint\projec_control.dll
+C:\Users\anonimvs\Documents\projec_control\projec_control\obj\Debug\net6.0\projec_control.pdb
+C:\Users\anonimvs\Documents\projec_control\projec_control\obj\Debug\net6.0\projec_control.genruntimeconfig.cache
+C:\Users\anonimvs\Documents\projec_control\projec_control\obj\Debug\net6.0\ref\projec_control.dll
