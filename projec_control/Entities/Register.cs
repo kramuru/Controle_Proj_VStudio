@@ -10,8 +10,8 @@ namespace projec_control.Entities
         {
             System.Console.Write("Entre com o ID do projeto: ");
             string id = Console.ReadLine()!;
-            Directory.CreateDirectory(@"C:\Users\bscd\Documents" + id);
-            string path = @"C:\Users\bscd\Documents" + id + "/" + id + ".txt";
+            Directory.CreateDirectory(@"C:\Users\bscd\Documents\" + id);
+            string path = @"C:\Users\bscd\Documents\" + id + "/" + id + ".txt";
             System.Console.WriteLine("Entre com o nome do projeto: ");
             string name = Console.ReadLine()!;
             //using(StreamWriter sw = new StreamWriter(path,true)){
@@ -28,7 +28,7 @@ namespace projec_control.Entities
             Demand demanda;
             System.Console.Write("Informe o Projeto para qual vai cadastrar a solicitação: ");
             string id = Console.ReadLine()!.ToUpper();
-            string path = @"C:\Users\bscd\Documents" + id + "/" + id + ".txt";
+            string path = @"C:\Users\bscd\Documents\" + id + "/" + id + ".txt";
             if (File.Exists(path))
             {
                 System.Console.Write("Informe o tipo da solicitação(SNOW,GM, NS, OM, CHG): ");
@@ -59,7 +59,7 @@ namespace projec_control.Entities
         {
             System.Console.Write("Informe o projeto para pesquisa: ");
             string id = Console.ReadLine()!.ToUpper();
-            string path = @"C:\Users\bscd\Documents" + id + "/" + id + ".txt";
+            string path = @"C:\Users\bscd\Documents\" + id + "/" + id + ".txt";
             if (File.Exists(path))
             {
                 System.Console.Write("Informe o tipo da solicitação(SNOW,GM, NS, OM, CHG): ");
