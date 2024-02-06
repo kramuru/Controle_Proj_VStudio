@@ -20,6 +20,7 @@ namespace projec_control.Entities
             Thread.Sleep(1000);
             Console.Clear();
             Menu menu = new Menu();
+            menu.Option();
         }
 
         public void RegistraDemanda()
