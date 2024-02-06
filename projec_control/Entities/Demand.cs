@@ -31,6 +31,8 @@ namespace projec_control.Entities
         {
             File.AppendAllText(path, texto);
             Menu menu = new Menu();
+            Thread.Sleep(1000);
+            Console.Clear();
             menu.Option();
         }
 

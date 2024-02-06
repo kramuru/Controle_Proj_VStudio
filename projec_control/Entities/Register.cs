@@ -17,6 +17,9 @@ namespace projec_control.Entities
             //using(StreamWriter sw = new StreamWriter(path,true)){
             //sw.WriteLine(name);
             File.AppendAllText(path, name + "\r");
+            Thread.Sleep(1000);
+            Console.Clear();
+            Menu menu = new Menu();
         }
 
         public void RegistraDemanda()
@@ -36,8 +39,7 @@ namespace projec_control.Entities
                 demanda = new Demand(tipo, sId, objeto);
                 System.Console.WriteLine(demanda);
                 demanda.CadastraDemanda(path, demanda.ToString());
-                Thread.Sleep(2000);
-                Console.Clear();
+               
 
             }
             else
