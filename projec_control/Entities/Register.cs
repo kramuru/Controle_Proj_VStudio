@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 
 namespace projec_control.Entities
@@ -9,13 +10,13 @@ namespace projec_control.Entities
     public void Cadastro()
         {
             System.Console.Write("Entre com o ID do projeto: ");
-            string id = Console.ReadLine()!;
+            string id = Console.ReadLine()!.ToUpper();
+            //Directory.CreateDirectory(@"C:\Users\anonimvs\temp\" + id);
+            //string path = @"C:\Users\anonimvs\temp\" + id + "/" + id + ".txt";
             Directory.CreateDirectory(@"C:\Users\bscd\Documents\" + id);
             string path = @"C:\Users\bscd\Documents\" + id + "/" + id + ".txt";
             System.Console.WriteLine("Entre com o nome do projeto: ");
             string name = Console.ReadLine()!;
-            //using(StreamWriter sw = new StreamWriter(path,true)){
-            //sw.WriteLine(name);
             File.AppendAllText(path, name + "\r");
             Thread.Sleep(1000);
             Console.Clear();

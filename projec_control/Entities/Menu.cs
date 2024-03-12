@@ -5,6 +5,8 @@ namespace projec_control
 {
     internal class Menu
     {
+        string path = @"C:\Users\bscd\Documents\";
+        
         public void Option()
         {
             System.Console.WriteLine(@"
@@ -14,7 +16,19 @@ namespace projec_control
             System.Console.WriteLine("2. Cadastrar Solicitações");
             System.Console.WriteLine("3. Consultar Solicitações");
             System.Console.WriteLine("4. Sair");
-            System.Console.Write("Digite uma opção válida: ");
+            Console.WriteLine("\r");
+            Console.WriteLine("\nLista de Projetos\r");
+            string[] directory = Directory.GetDirectories(path);
+            
+            if (directory.Length > 0)
+            {
+                int n = path.Count();
+                foreach (string dir in directory)
+                {
+                    Console.WriteLine(dir.Substring(n) + "\r");
+                }
+            }
+            System.Console.Write("\nDigite uma opção válida (1 - 4): ");
             int option = int.Parse(Console.ReadLine()!);
             Register register = new Register();
             switch (option)
